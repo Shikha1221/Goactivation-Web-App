@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+  <table class="table">
+
+      <tr>
+        <td> <label class="control-label col-sm-2" for="name" >First Name:</label> </td>
+        <td> <input type="text" class="form-control" id="name" placeholder="Enter first name" style="margin-right:15%; margin-left:5%;"></td>
+       
+      </tr>
+      <tr>
+       <td style="padding-bottom:2%;"> <label for="lastname" style="width:200px; float:left; color: #808080;
+				font-size: 18px;">Last Name</label> </td>
+			
+			<td style="padding-bottom:2%;"> <input type="text" name="name" id="name" placeholder="Second name"
+			 autocomplete="off" tabindex="1" class="txtinput" style="width:60%; margin-right:15%; margin-left:5%;"> </td>
+      </tr>
+      <tr>
+       <td style="padding-bottom:2%;"> <label for="businessname" style="width:200px; float:left; color: #808080;
+				font-size: 18px;">Business Name</label> </td>
+			
+			<td style="padding-bottom:2%;"> <input type="text" name="name" id="name" placeholder="Business name"
+			 autocomplete="off" tabindex="1" class="txtinput" style="width:60%; margin-right:15%; margin-left:5%;"> </td>
+      </tr>
+		
+		<td style="padding-bottom:2%;"> <label for="phonenumber" style="width:200px; float:left; color: #808080;
+				font-size: 18px;">Contact Number</label> </td>
+			
+			<td style="padding-bottom:2%;"> <input type="text" name="name" id="name" placeholder="Phone Number To Contact" 
+			autocomplete="off" tabindex="1" class="txtinput" style="width:60%; margin-right:5%; margin-left:5%;"> </td> </tr>
+			
+				<tr> 
+				<td style="padding-bottom:2%;"> <label for="city" style="width:200px; float:left; color: #808080;
+				font-size: 18px;">City</label> </td>
+			
+			<td style="padding-bottom:2%;"><input type="text" name="name3" id="name3" placeholder="your City Name"
+			 autocomplete="off" tabindex="1" class="txtinput" style="width:60%; margin-right:15%; margin-left:5%;"/></td> 
+				</tr>
+			 
+			
+			 <tr> 
+				<td style="padding-bottom:2%;"> <label for="state" style="width:200px; float:left; color: #808080;
+				font-size: 18px;">State</label> </td>
+			
+			<td style="padding-bottom:2%;"> <input type="text" name="name" id="name" placeholder="your State Name"
+			 autocomplete="off" tabindex="1" class="txtinput" style="width:60%; margin-right:15%; margin-left:5%;"> </td> </tr>
+			 
+			 
+			  <tr> 
+				<td style="padding-bottom:2%;"> <label for="zipcode" style="width:200px; float:left; color: #808080;
+				font-size: 18px;">Zip Code</label> </td>
+			
+			<td style="padding-bottom:2%;"> <input type="text" name="name" id="name" placeholder="your Zip Code Name"
+			 autocomplete="off" tabindex="1" class="txtinput" style="width:60%; margin-right:15%; margin-left:5%;"> </td> </tr>
+			
+			  <tr> 
+				<td style="padding-bottom:2%;"> <label for="email" style="width:200px; float:left; color: #808080;
+				font-size: 18px;">Email</label> </td>
+			
+			<td style="padding-bottom:2%;"> <input type="text" name="name" id="name" placeholder="your Email ID Enter Here"
+			 autocomplete="off" tabindex="1" class="txtinput" style="width:60%; margin-right:15%; margin-left:5%;"> </td> </tr>
+			 
+			 <tr> 
+				<td style="padding-bottom:2%;"> <label for="typeofbusiness" style="width:200px; float:left; color: #808080;
+				font-size: 18px;"> Type Of Business</label> </td> 
+				
+				<td style="padding-bottom:2%; "><select id="select_1" class="placeholder" name="select_1" size="1" style="width:60%; margin-right:15%; margin-left:5%;">
+                  <option value="Please Select" style="color: #808080; font-size: 18px;">Please Select</option>
+                  <option value="val2" style="color: #808080; font-size: 18px;">Wireless Store</option>
+                  <option value="val3" style="color: #808080; font-size: 18px;">Conveninece Store</option>
+                  <option value="val4" style="color: #808080; font-size: 18px;">Individual Seller </option>
+                  <option value="Gas" style="color: #808080; font-size: 18px;">Gas Station</option>
+                  <option value="Other" style="color: #808080; font-size: 18px;">Other</option>
+                </select></td>
+		     <tr> 
+				<td style="padding-bottom:2%;"> <label for="note" style="width:200px; float:left; color: #808080;
+				font-size: 18px;"> Notes </label> </td> 
+			
+			  <td style="padding-bottom:2%; ">   <textarea name="message" id="message" placeholder="Enter a cool message..." tabindex="5" 
+			       class="txtblock" style="width:60%; margin-right:15%; margin-left:5%;"></textarea> </td> </tr>
+				   
+				   
+			<tr>  <td style="padding-bottom:2%; height:40px;"> <input savedhoverstateitemcolor="[object Object]" class="dx-vam" style="width:100px; height:100%; margin-left:10%; background:#F67D3A; color: rgb(255, 255, 255); font-family:Verdana, Arial, Helvetica, sans-serif; font-size:16px;" type="submit" name="submit" id="submitbtn" tabindex="7" value="Submit"> </td> 
+			</tr>
+	
+	
+	
+  </table>
+</div>
+
+
+<div class="container">
+  <h2>Horizontal form</h2>
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email" >First Name:</label> 
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" style="margin-right:15%; margin-left:5%;">
+      </div> <br>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd" style=" float:left; color: #808080;
+				font-size: 18px; width:40%;">Last Name:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="pwd" placeholder="Last Name" style="width:50%; margin-right:15%; margin-left:5%;">
+      </div> <br>
+	  </div>   
+	   <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd" style=" float:left; color: #808080;
+				font-size: 18px; width:40%;">Business Name:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="pwd" placeholder="Business Name" style="width:50%; margin-right:15%; margin-left:5%;">
+      </div>   <br>
+	  </div>
+	  <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd" style=" float:left; color: #808080;
+				font-size: 18px; width:40%;">Phone Number To Contact:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="pwd" placeholder="Phone Number To Contact" style="width:50%; margin-right:15%; margin-left:5%;">
+      </div>   <br>
+	  </div>
+	  
+	  <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd" style=" float:left; color: #808080;
+				font-size: 18px;">City:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="pwd" placeholder="City" style="width:50%; margin-right:15%; margin-left:5%;">
+      </div>   <br>
+	  </div>
+	  
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
